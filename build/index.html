@@ -11,7 +11,7 @@
     <header></header>
     <main class="">
       <section
-        class="hidden flex items-center justify-center md:h-screen md:w-screen"
+        class=" flex items-center justify-center md:h-screen md:w-screen"
       >
         <div
           class="flex flex-col-reverse md:flex-row md:justify-between bg-white rounded-lg shadow-md md:h-5/6"
@@ -44,8 +44,8 @@
                 >
                 <label
                   for="email"
-                  class="error font-semibold uppercase text-xs mb-4"
-                  >email address</label
+                  class="error font-semibold capitalize text-xs mb-4 text-orange-500"
+                  >valid email required</label
                 >
               </div>
               <input
@@ -53,19 +53,19 @@
                 name="email"
                 id="email"
                 placeholder="emails.company.company"
-                class="text-center w-full h-16 shadow-sm rounded-md text-gray-800"
+                class="text-center w-full h-16 shadow-sm rounded-md text-gray-800 border-2 border-gray-900  "
               />
               <label for="subcribe"></label><br />
               <input
                 type="button"
                 value="subcribe to monthly newsletter"
-                class="bg-blue-700 hover:bg-blue-300 shadow-lg rounded-lg w-full h-16 capitalize text-gray-400 font-semibold text-base mt-4"
+                class= "subcribe_btn cursor-pointer bg-indigo-950 hover:bg-gradient-to-r from-orange-400 to-orange-800 shadow-lg rounded-lg w-full h-16 capitalize text-gray-400 font-semibold text-base mt-4"
               />
             </form>
           </div>
-          <div class="flex justify-evenly sm:gap-6 mt-2 sm:mt-auto md:mt-2">
+          <div class="flex justify-center  sm:gap-6 mt-2 sm:mt-auto md:mt-auto ">
             <img
-              class="md:pr-4 sm:w-1/2 md:py-2 w-3/4 md:w-full"
+              class="md:pr-4 sm:w-1/2 md:py-2 w-5/6 md:w-full"
               src="./images/illustration-sign-up-desktop.svg"
               alt=""
             />
@@ -75,20 +75,20 @@
       </section>
 
       <!-- thank you -->
-      <section class=" flex w-screen h-screen justify-center items-center ">
+      <section class=" diss_sect flex w-screen h-screen justify-center items-center ">
         <div class="md:p-10 p-6  shadow-lg border-2 bg-white w-full  md:w-1/3 h-full  md:h-2/3 rounded-lg ">
           <div class="md:mb-6 mb-12 mt-10 md:mt-auto  "><img src="./images/icon-success.svg" alt="" /></div>
           <div class="mb-6 "><h3 class="capitalize text-indigo-600 font-bold text-5xl  ">thanks for subcribing!</h3></div>
           <div class="mb-6 ">
             <p class="text-indigo-950 font-light ">
               A confirmtion email has been sebt to
-              <span class="font-semibold "
+              <span class="email_info font-semibold "
                 >ash@loremcompany.com </span> please open it and click the button inside
                 to confirm your subcribtions
             </p>
           </div>
           <div class="flex  md:justify-evenly mt-32 md:mt-auto ">
-            <input class="capitalize w-full h-16 hover: bg-indigo-950 text-white font-semibold rounded-lg " type="button" value="dismiss message">
+            <input class="hover:bg-gradient-to-r from-orange-400 to-orange-800 capitalize w-full h-16 hover: bg-indigo-950 text-white font-semibold rounded-lg " type="button" value="dismiss message">
           </div>
         </div>
       </section>

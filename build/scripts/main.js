@@ -1,3 +1,6 @@
 const error_message = document.querySelector('.error')
+const diss_message = document.querySelector('.diss_sect')
+const subcribe_btn = document.querySelector('.subcribe_btn')
+const email_text = document.querySelector('.email_info')
 
-error_message.classList.add('hidden')
+diss_message.classList.add('hidden')
