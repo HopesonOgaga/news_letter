@@ -590,10 +590,6 @@ video {
   height: 100vh;
 }
 
-.w-2\/3 {
-  width: 66.666667%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -602,16 +598,8 @@ video {
   width: 100vw;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .cursor-pointer {
   cursor: pointer;
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col-reverse {
@@ -791,20 +779,12 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:mt-auto {
-    margin-top: auto;
-  }
-
   .sm\:w-1\/2 {
     width: 50%;
   }
 
   .sm\:justify-start {
     justify-content: flex-start;
-  }
-
-  .sm\:justify-end {
-    justify-content: flex-end;
   }
 
   .sm\:gap-6 {
